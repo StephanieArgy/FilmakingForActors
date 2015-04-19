@@ -1,6 +1,7 @@
 body {
   background-color: #fffcee;
-  gradient:
+  background-image: url("../img/tanPaper01.jpg");
+  padding-bottom: 75px;
 }
 
 #workshopTitle {
@@ -10,4 +11,51 @@ body {
 
 h2 {
   color: maroon;
+}
+
+.glyphicon {
+  display:  block;
+  font-size:  2em;
+  text-align:  center;
+	color:  maroon;
+  margin-bottom: 10px;
+}
+
+
+/*************
+Glossary Page
+**************/
+
+.glossary {
+  padding-top: 60px;
+  font-size: 1.3em;
+}
+
+dd {
+  border-bottom: 2px solid rgba(200, 200, 200, .5);
+  margin-bottom: 12px;
+  padding-bottom: 3px;
+}
+
+/*************
+Reading/Watching
+**************/
+
+iframe {
+  border-bottom: 3px solid gray;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: black;
+  padding: 5px 4% 10px;
 }
