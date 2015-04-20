@@ -1,7 +1,9 @@
+
 body {
   background-color: #fffcee;
   background-image: url("../img/tanPaper01.jpg");
   padding-bottom: 75px;
+  padding-top: 50px;
 }
 
 #workshopTitle {
@@ -9,8 +11,30 @@ body {
   font-variant: small-caps;
 }
 
+.myCarousel {
+  margin-top: 200px;
+}
+
+.carousel img {
+  vertical-align: middle;
+  height: 100%;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.carousel-caption-text {
+  background-color: rgba(0, 0, 0, .4);
+  color: #f0fdff;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+
 h2 {
   color: maroon;
+}
+
+.featurette-divider {
+border:1px solid maroon;
 }
 
 .glyphicon {
