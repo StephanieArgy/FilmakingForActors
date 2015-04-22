@@ -29,6 +29,10 @@ body {
   padding-right: 5%;
   }
 
+.topBarButton {
+  margin-top: 10px;
+}
+
 h2 {
   color: maroon;
 }
