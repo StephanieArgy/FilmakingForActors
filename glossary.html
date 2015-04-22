@@ -25,44 +25,45 @@
     <!-- Custom styles added by me -->
     <link href="css/mystyles.css" rel="stylesheet">
   </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+  <!-- NAVBAR
+  ================================================== -->
+    <body>
+      <div class="navbar-wrapper">
+        <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#" id="workshopTitle">Filmmaking for Actors</a>
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" id="workshopTitle">Filmmaking for Actors</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a  href="mailto:info@mentalslapstick.com">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="glossary.html">Glossary</a></li>
+                      <li><a href="readingWatchingList.html">Reading/Watching Suggestions</a></li>
+                      <!-- <li><a href="#">Useful Organizations</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Nav header</li>
+                      <li><a href="#">Separated link</a></li>
+                      <li><a href="#">One more separated link</a></li> -->
+                    </ul>
+                  </li>
+                </ul>
+                <p class="pull-right topBarButton"><a class="btn btn-lg btn-primary" role="button" data-toggle="modal" data-target="#myModal">Apply!</a></p>
+              </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a  href="mailto:info@mentalslapstick.com">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="glossary.html">Glossary</a></li>
-                    <li><a href="readingWatchingList.html">Reading/Watching Suggestions</a></li>
-                    <!-- <li><a href="#">Useful Organizations</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li> -->
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
 
       </div>
     </div>
@@ -117,6 +118,52 @@
     On set images photographed by Jim Ewing and Annie Rothrock.
   </p>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Apply for consideration</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          We will be presenting this workshop for the first time in May/June, 2015, and it will be by invitation only. If you'd like to be considered, please submit the following preliminary information:
+        </p>
+        <div class="form-group">
+            <label class="sr-only" for="mobilePhone">First Name</label>
+            <input type="tel" class="form-control" id="mobilePhone" placeholder="First Name">
+            <label class="sr-only" for="mobilePhone">Last Name</label>
+            <input type="tel" class="form-control" id="mobilePhone" placeholder="Last Name">
+            <input type="tel" class="form-control" id="mobilePhone" placeholder="E-mail">
+            <label class="sr-only" for="mobilePhone">Phone</label>
+            <input type="tel" class="form-control" id="mobilePhone" placeholder="Phone">
+          </div>
+
+          <p>
+            Though the workshop content is designed primarily for actors, one of our goals is to facilitate communication between all the filmmaking crafts, and we welcome people from all departments. Please let us know your primary profession:
+            <div class="form-group">
+            <select class="form-control">
+              <option>Actor</option>
+              <option>Director</option>
+              <option>Producer</option>
+              <option>Editorial</option>
+              <option>Camera/lighting/grip</option>
+              <option>Sound</option>
+              <option>Other</option>
+            </select>
+          </div>
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <!-- Bootstrap core JavaScript
